@@ -1,0 +1,423 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Website</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome CSS (added) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- link css -->
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="path/to/bootstrap.min.css">
+  
+  
+</head>
+<body data-spy="scroll" data-target="#navbarNav">
+
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container" style="padding: 20px 0;">
+        <a class="navbar-brand" href="#"><img src="photos/imageslogo/reallogo.jpg" alt="logo" ></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+  <section id="home" class="home d-flex position-relative align-items-center justify-content-center">
+    <div id="particles-js" class="position-absolute"></div>
+    <div class="content d-flex flex-wrap flex-row">
+      <div class="intro">
+        <h2>
+          Hello, I'm<br/>
+          <span>Bishal</span>
+          Thapa
+        </h2>
+        <p>I'm a FullStack
+          <span id="typingText" class="typed-text" style="color: blue;"></span><span class="cursor"></span>
+        </p>
+        <button  id="portfolioButton" class="p-button"> View My Portfolio</button>
+
+        <div class="socials mt-4 position-relative">
+          <ul class="social-icons my-0 px-0">
+            <li class="d-inline-block">
+              <a
+                class="linkedin d-inline-block"
+                aria-label="LinkedIn"
+                href="https://www.linkedin.com/in/bishal-thapa-a582082a2/"
+                target="_blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li class="d-inline-block">
+              <a
+                class="github d-inline-block"
+                aria-label="GitHub"
+                href="https://github.com/iambishalthapa"
+                target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+            <li class="d-inline-block">
+              <a
+                class="instagram d-inline-block"
+                aria-label="Instagram"
+                href="https://www.instagram.com/iambishal1009/"
+                target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="image animate-from-right ">
+        <img draggable="false" src="photos/imageslogo/IMG_3644.jpg" alt=""/>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about-me-container">
+    <div class="container">
+      <div class="about-me-title"><h2>About</h2><h2>  Me</h2></div>
+      <div class="row">
+        <!-- Image Column -->
+        <div class="col-md-6">
+          <div class="image animate-from-left animate">
+            <img class="img-fluid" draggable="false" src="photos/imageslogo/IMG_3644.jpg" alt="About Me Image"/>
+          </div>
+        </div>
+        <!-- Text Column -->
+        <div class="col-md-6">
+          <div class="about-me-text animate-from-left"> <!-- Move the class to this div -->
+            <h3>I'm Bishal</h3>
+            <h4><i>Bachelor in Information Technology</i></h4>
+            <p>
+              Hi, I'm currently studying and specializing in Website Design, Database Management, Networking, and Cloud Computing. I'm passionate about creating user-friendly web experiences and optimizing data systems. Let's connect and explore the possibilities together!
+            </p>
+            <span  style="font-size:18px ;"><img style="width: 30px;" src="photos/imageslogo/icons8-email-48.png" alt="" srcset="">Email:www.bishalthapa1@gmail.com</span>
+            <span style="font-size:18px ;"><img style="width: 30px;" src="photos/imageslogo/icons8-address-50.png" alt="" srcset="">  Place: Pokhara Nepal</span>
+            <button id="skillsButton" class="btn btn-primary" style="margin-top: 20px;">Skills & Ability</button>
+            <!-- Used Bootstrap's button style -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="skills"  class="skills-container">
+    <div class="container">
+      <div class="skills-title">
+       <h2>Skills </h2> <h2>  &</h2> <h2>  Ability</h2></div>
+      </div>
+  <div class="container mt-5">
+    <div class="row skills-icons">
+      <div class="col-md-3">
+        <div class="card icon-card">
+          <i class="fab fa-html5  card-img-top mt-3" style="color: blue; font-size: 48px;"></i>
+          <div class="card-body">
+            <p class="card-text">HTML</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card icon-card">
+          <i class="fab fa-css3-alt  card-img-top mt-3 " style="color: blue;font-size: 48px;"></i>
+          <div class="card-body">
+            <p class="card-text">CSS</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card icon-card">
+          <i class="fab fa-js card-img-top mt-3" style="color: blue; font-size: 48px;"></i>
+          <div class="card-body">
+            <p class="card-text">JavaScript</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card icon-card">
+          <i class="fab fa-php  card-img-top mt-3" style="color: blue;font-size: 48px;"></i>
+          <div class="card-body">
+            <p class="card-text">PHP</p>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-3">
+        <div class="card icon-card">
+          <i class="fab fa-laravel  card-img-top mt-3" style="color: blue; font-size: 48px;"></i>
+          <div class="card-body">
+            <p class="card-text">Laravel</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card icon-card">
+          <i class="fas fa-c card-img-top mt-3" style="color: blue; font-size: 48px;"></i>
+          <div class="card-body">
+            <p class="card-text">C-Sharp</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card icon-card">
+          <i class="fas fa-cloud  card-img-top mt-3" style="color: blue; font-size: 48px;"></i>
+          <div class="card-body">
+            <p class="card-text">Cloud Computing</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card icon-card">
+          <i class="fab fa-github card-img-top mt-3" style="color: blue; font-size: 48px;"></i>
+          <div class="card-body">
+            <p class="card-text">GitHub</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card icon-card">
+          <i class="fas fa-database  card-img-top mt-3" style="color: blue; font-size: 48px;"></i>
+          <div class="card-body">
+            <p class="card-text">Database</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card icon-card">
+          <i class="fas fa-network-wired card-img-top mt-3" style="color: blue; font-size: 48px;"></i>
+          <div class="card-body">
+            <p class="card-text">Networking</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card icon-card">
+          <i class="fas fa-shield-alt card-img-top mt-3" style="color: blue; font-size: 48px;"></i>
+          <div class="card-body">
+            <p class="card-text">Security</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card icon-card">
+          <i class="fab fa-c  card-img-top mt-3" style="color: blue; font-size: 48px;"></i>
+          <div class="card-body">
+            <p class="card-text">C-Sharp</p>
+          </div>
+        </div>
+      </div>
+      
+    
+    </div>
+  </div>
+<!-- My Services Section -->
+<section id="services" class="services-container bg-black text-black py-5">
+  <div class="container text-center">
+    <div class="services-title">
+      <div><h2 style="display: inline;">My </h2><h2 style="display: inline; color: blue !important;">  Services</h2></div>
+    </div>
+
+    <div class="row">
+      <!-- Frontend Developer Service -->
+      <div class="col-md-6">
+        <div class="service-box bg-black text-black p-4 mb-4 frontend-service" onmouseover="hoverService('frontend')" onmouseout="unhoverService('frontend')">
+          <h3>Frontend Developer</h3>
+          <p>
+            As a frontend developer, I specialize in creating engaging and responsive user interfaces using HTML, CSS, and JavaScript. I focus on delivering visually appealing and user-friendly websites to enhance the overall user experience.
+          </p>
+        </div>
+      </div>
+
+      <!-- Backend Developer Service -->
+      <div class="col-md-6">
+        <div class="service-box bg-black text-black p-4 mb-4 backend-service" onmouseover="hoverService('backend')" onmouseout="unhoverService('backend')">
+          <h3>Backend Developer</h3>
+          <p>
+            As a backend developer, I excel in building robust server-side applications and managing databases. I am proficient in languages like PHP and utilize frameworks such as Laravel to create scalable and efficient web solutions.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="portfolio" class="portfolio-container py-5 my-portfolio-section">
+  <div class="container text-center">
+    <div class="portfolio-title">
+      <div><h2 style="display: inline;color: blue !important;">My </h2><h2 style="display: inline;"> Portfolio</h2></div>
+      <i>Here are some projects managed by me.</i>
+    </div>
+
+    <div class="row">
+      <!-- Project 1 -->
+      <div class="col-md-6 mb-4">
+        <div class="card">
+          <img src="project/myswebsiteproject1.jpg" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Gurkha Martial Arts College Project</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-md-6 mb-4">
+        <div class="card">
+          <img src="project/myswebsiteproject2.jpg" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Restaurant Website </h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add more project cards as needed -->
+    </div>
+  </div>
+</section>
+
+<!-- Contact Form Section -->
+<section id="contact" class="contact-container py-5">
+  <div class="container">
+    <div class="contact-title">
+      <h2>Contact</h2>
+      <i>Get in touch with me</i>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+        <!-- Contact Form -->
+        <form  action="https://formspree.io/f/mdoqngjr" method="POST">
+          <!-- Name Input -->
+          <div class="form-group">
+            <label for="name"><span class="required-star">*</span>Your Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+          </div>
+
+          <!-- Email Input -->
+          <div class="form-group">
+            <label for="email"><span class="required-star">*</span>Your Email</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+          </div>
+
+          <!-- Message Textarea -->
+          <div class="form-group">
+            <label for="message"><span class="required-star">*</span>Your Message</label>
+            <textarea style="resize: none;" class="form-control " id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
+          </div>
+
+          <!-- Submit Button -->
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Footer Section -->
+<footer class="bg-dark text-white text-center py-3">
+  <div class="container">
+    <div class="row">
+      <hr  style="color: black;">
+      <!-- Left Side: Bishal Thapa's Portfolio -->
+      <div class="col-md-4">
+        <h5 class="mb-0">Bishal Thapa's Portfolio</h5>
+        <p><i>Thank you for visiting my personal portfolio website.</i> </p>
+      </div>
+
+      <!-- Middle: Social Media Icons -->
+      <div class="col-md-4">
+        <ul class="list-inline mb-0 social-icons">
+          <!-- Replace '#' with your social media links -->
+         
+          <li class="list-inline-item"><a href="https://www.instagram.com/iambishal1009" target="_blank"><i class="fab fa-instagram"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.linkedin.com/in/bishal-thapa-a582082a2/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+          <li class="list-inline-item"><a href="https://github.com/iambishalthapa" target="_blank"><i class="fab fa-github"></i></a></li>
+        </ul>
+      </div>
+
+      <!-- Right Side: Copyright Information -->
+      <div class="col-md-4">
+        <p class="mb-0">&copy; 2023 All Rights Reserved</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap JS and jQuery (Make sure to include them) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+    <!-- Bootstrap JS and jQuery --> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="path/to/popper.min.js"></script>
+<script src="path/to/bootstrap.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Scroll to Portfolio section when the button is clicked
+    document.getElementById('portfolioButton').addEventListener('click', function () {
+      const portfolioSection = document.getElementById('portfolio');
+
+      // Check if the Portfolio section exists
+      if (portfolioSection) {
+        // Scroll to the Portfolio section smoothly
+        portfolioSection.scrollIntoView({
+          behavior: 'smooth'
+        });
+      }
+    });
+
+    // Scroll to Skills & Ability section when the button is clicked
+    document.getElementById('skillsButton').addEventListener('click', function () {
+      const skillsSection = document.getElementById('skills');
+
+      // Check if the Skills & Ability section exists
+      if (skillsSection) {
+        // Scroll to the Skills & Ability section smoothly
+        skillsSection.scrollIntoView({
+          behavior: 'smooth'
+        });
+      }
+    });
+
+    // Add event listener to each navigation link
+    document.querySelectorAll('a.nav-link').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        // Get the target section ID from the href attribute
+        const targetId = this.getAttribute('href').substring(1);
+
+        // Scroll to the target section smoothly
+        document.getElementById(targetId).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  });
+</script>
+
+   
+
+</body>
+</html>

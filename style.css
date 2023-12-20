@@ -1,0 +1,384 @@
+
+nav {
+  background-color: white;
+  
+}
+
+nav a {
+  color: black;
+  font-size: 20px;
+  margin: 0 15px;
+  position: relative;
+  text-decoration: none;
+  
+}
+.navbar fixed-top navbar-expand-lg  .container{
+  padding: 20px 0px;
+}
+nav a:hover {
+  text-decoration: none;
+}
+
+nav a:hover::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 50%;
+  height: 2px;
+  background-color: yellow; /* Change to your desired underline color */
+  bottom: -2px;
+  left: 0;
+}
+
+  /* home */
+  .home {
+    min-height: 99vh;
+    flex-direction: row;
+  }
+
+  .home #particles-js {
+    height: 100%;
+    width: 100%;
+    background-color: wheat;
+  }
+
+  .home .content {
+    z-index: 1;
+    padding-top: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home .content .image {
+    margin-left: 50px;
+  }
+
+  .home .content .image img {
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 3px 20px blue;
+    cursor: pointer;
+  }
+
+  .home .content .image img:hover {
+    width: 350px;
+    transition: .5s;
+    box-shadow: 0 6px 20px white;
+  }
+
+
+  .home .content .intro h2 {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .home .content .intro h2 span {
+    font-size: 52px;
+    font-weight: bold;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .home .content .intro p {
+    font-size: 26px;
+    color: black;
+    font-weight: 600;
+  }
+
+  .home .content .intro p span {
+    font-size: 28px;
+    color: white;
+    font-weight: 600;
+  }
+
+  /* About Me Section Styles */
+  .about-me-container {
+    background-color: white;
+    color: black;
+    padding: 100px 0;
+    margin-bottom: 20px;
+  }
+
+  .about-me-container h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+
+
+  .about-me-container .image img {
+    width: 100%;
+    max-width:460px;/* Adjust the max-width as needed */
+    box-shadow: 0 2px 10px white;
+    cursor: pointer;
+  }
+
+  .about-me-container .about-me-text {
+    padding-left: 20px;
+  }
+
+  .about-me-container .about-me-text h3 {
+    font-size: 28px;
+    margin-top: 27px;
+  }
+  .about-me-container .about-me-text h2 {
+    font-size: 28px;
+    margin-bottom: 50px;
+  }
+  
+
+  .about-me-container .about-me-text h4 {
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 20px;
+  }
+
+  .about-me-container .about-me-text p {
+    font-size: 19px;
+    margin-bottom: 20px;
+  }
+
+  .about-me-container .about-me-text span {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .about-me-container button {
+    background-color: #0000ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .about-me-container button:hover {
+    background-color: #007bff;
+  }
+  
+/* Add a new class for center-aligning the text within the span */
+.about-me-title {
+text-align: center !important;
+margin-bottom: 50px;
+}
+
+.about-me-title h2 {
+font-size: 36px;
+margin-bottom: 20px;
+display: inline;
+text-align: center !important; /* Display the h2 elements inline */
+}
+.skills-title h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+    display: inline;
+    text-align: center !important; 
+}
+.skills-title h2:first-child{
+    color: blue;
+}
+.about-me-title h2:last-child {
+
+color: blue; /* Apply blue color to the second h2 */
+}
+
+  .socials {
+    margin-top: 2rem;
+  }
+
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .social-icons li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+
+  .social-icons a {
+    display: block;
+    font-size: 24px;
+    color: black;
+    transition: color 0.3s ease;
+  }
+
+  .social-icons a:hover {
+    color: blue;
+  }
+
+  .cursor {
+    display: inline-block;
+    width: 2px;
+    height: 20px;
+    background-color: blue;
+    animation: none;
+  }
+
+  .cursor.typing {
+    animation: blinkingCursor 0.7s infinite;
+  }
+
+  @keyframes blinkingCursor {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+
+  .p-button {
+    background: blue;
+    border: 1px solid transparent;
+    border-radius: 10px 10px 10px;
+    color: white;
+    height: 43px;
+  }
+
+  .animate-from-right {
+    animation: slideFromRight 2s ease-out;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    transform: translateX(50%);
+  }
+
+  @keyframes slideFromRight {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  /* Animation Styles */
+.animate-from-left {
+animation: slideFromLeft 2s ease-out;
+animation-fill-mode: forwards;
+opacity: 0;
+transform: translateX(-100%); /* Change from -50% to -100% for starting position off-screen */
+}
+
+@keyframes slideFromLeft {
+to {
+  opacity: 1;
+  transform: translateX(0);
+}
+}
+* Add this to your existing CSS or create a new CSS file */
+
+.skills-container {
+  background-color: black;
+  padding:  0;
+  min-height: 100vh !important;
+  
+}
+
+.skills-title {
+  text-align: center;
+  padding: 30px 0px !important;
+}
+
+.skills-icons {
+    display: flex;
+    justify-content: space-around;
+    color: blue;
+    border: 1px solid black;
+  padding: 10px;
+  }
+  
+  .icon-card {
+    border: none;
+    transition: box-shadow 0.3s ease-in-out;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .icon-card:hover {
+    box-shadow: 0 0 20px blue;
+  }
+  .icon-card i {
+    font-size: 2em; /* Adjust the size as needed */
+  }
+  .frontend-service{
+    border: 1px solid black;
+  }
+  .backend-service{
+    border: 1px solid black;
+  }
+
+  .frontend-service:hover,
+  .backend-service:hover {
+    box-shadow: 0 0 30px blue; /* Slightly larger box shadow on hover */
+    cursor:pointer !important;
+  }
+  .services-title{
+    margin-bottom: 30px !important;
+  }
+  #services{
+    padding: 100px 20px !important;
+  }
+
+   /* Add this to your existing style.css file or create a new one */
+.portfolio-container {
+  padding: 100px 20px !important;
+  background-color: white;
+  color: black; /* Add your preferred background color */
+}
+
+.portfolio-title {
+  margin-bottom: 30px;
+}
+
+.card {
+  transition: transform 0.2s; /* Add a smooth transition effect on hover */
+}
+.card-body{
+  background-color: white;
+  color: black;
+  line-height: 2;
+  font-weight:500;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px blue; /* Slightly larger box shadow on hover */
+    cursor:pointer !important; /* Enlarge the card on hover */
+}
+
+.card-img-top {
+  max-width: 100%; /* Set a maximum width for the project images */
+  height: 100%; /* Automatically adjust the height to maintain the aspect ratio */
+}
+.skills{
+  
+}
+.contact-container {
+  padding: 100px 20px !important;
+  text-align: center;
+  
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  text-align: left;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.required-star {
+  color: red;
+  margin-right: 2px;
+}
